@@ -55,7 +55,7 @@ pipeline {
         steps {
             sh '''
             echo 'deploying files to jfrog'
-             curl -u admin:Admin@123 -T /c/Users/HIMABINDHU/.jenkins/workspace/pipeline_job/target/com.google-google.jar "http://localhost:8081/artifactory/devops-files/."
+             curl -u admin:Admin@123 -T /c/Users/HIMABINDHU/.jenkins/workspace/Jenkinsfile-Pipelinejob/target/com.google-google.jar "http://localhost:8081/artifactory/devops-files/."
         '''
         }
     }
